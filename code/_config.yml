@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Justice Template
+title: Sunny Sun
 url: "https://orchid-heron.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -16,7 +16,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Sunny Sun
   links:
     - https://github.com/CloudCannon/justice-jekyll-template
 
@@ -32,15 +32,13 @@ collections:
   - "staff_members"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: page
       background_image_path: /uploads/building.jpg
       image: /uploads/building.jpg
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -51,8 +49,7 @@ defaults:
           height: 2000
       _comments:
         image: Shown in social shares and the blog list.
-  -
-    scope:
+  - scope:
       path: ""
       type: "staff_members"
     values:
