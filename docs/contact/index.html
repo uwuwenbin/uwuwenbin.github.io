@@ -57,11 +57,6 @@
 								<li><a class="active" href="/contact/">Contact</a></li>
 							
 						
-							
-								
-								<li><a  href="/blog/">Blog</a></li>
-							
-						
 					</ul>
 				</nav>
 			</div>
@@ -77,44 +72,55 @@
 
 <article class="content">
 	<p class="editable">
-	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+  Give me a call or send me a message with your details to see if I can help you
+  with finding your dream home or selling your existing home. No obligations!
 </p>
 
 <div class="columns">
-	<div class="column">
-		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
+  <div class="column">
+    <p class="editor-link">
+      <a href="cloudcannon:collections/_data/company.yml" class="btn"
+        ><strong>&#9998;</strong> Update Company Details</a
+      >
+    </p>
 
-		<label>Phone Number</label>
-		<p class="contact-info"><a href="tel:(416) 570 6999">(416) 570 6999</a></p>
+    <label>Phone Number</label>
+    <p class="contact-info">
+      <a href="tel:(416) 570 6999"
+        >(416) 570 6999</a
+      >
+    </p>
 
-		<label>Email Address</label>
-		<p class="contact-info"><a href="mailto:sunny_0519@gmail.com">sunny_0519@gmail.com</a></p>
+    <label>Email Address</label>
+    <p class="contact-info">
+      <a href="mailto:sunny_0519@gmail.com"
+        >sunny_0519@gmail.com</a
+      >
+    </p>
+  </div>
 
-		<label>Postal Address</label>
-		<address class="contact-info">PO Box 123<br> Ducktown<br> New Zealand</address>
-		<label>Address</label>
-		<address class="contact-info">123 Example Street<br> Gooseburb<br> 9876<br> Ducktown<br> New Zealand</address>
-	</div>
+  <div class="column">
+    <form method="post" action="/contact-success/">
+      <label for="email_address">Email Address</label>
+      <input id="email_address" type="text" name="email" />
 
-	<div class="column">
-		<form method="post" action="/contact-success/">
-			<label for="email_address">Email Address</label>
-			<input id="email_address"type="text" name="email">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" />
 
-			<label for="name">Name</label>
-			<input id="name" type="text" name="name">
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
 
-			<label for="message">Message</label>
-			<textarea id="message" name="message"></textarea>
+      <input
+        type="hidden"
+        name="_to"
+        value="sunny_0519@gmail.com"
+      />
+      <input type="text" name="_gotcha" style="display: none" />
 
-			<input type="hidden" name="_to" value="sunny_0519@gmail.com">
-			<input type="text" name="_gotcha" style="display: none;">
-
-			<input type="submit" value="Send Message">
-		</form>
-	</div>
+      <input type="submit" value="Send Message" />
+    </form>
+  </div>
 </div>
-
 
 
 
@@ -126,12 +132,12 @@
 		
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="/blog/">Read our blog</a> for an introduction and quick tips on various areas of the law.
+					<a href="/contact/">Contact me</a> today to find out how I can help you :)
 				</p>
 			</section>
 		
 
-		<footer>
+		<!-- <footer>
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
 
@@ -171,14 +177,6 @@
 										
 
 										Contact
-									</a>
-								</li>
-							
-								<li>
-									<a  href="/blog/" >
-										
-
-										Blog
 									</a>
 								</li>
 							
@@ -265,6 +263,6 @@
 					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
 				</p>
 			</div>
-		</footer>
+		</footer> -->
 	</body>
 </html>
