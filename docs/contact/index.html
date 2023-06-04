@@ -6,21 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Justice Template | Jekyll template with example content for a law firm.</title>
+<title>Contact | Justice Template</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Justice Template" />
+<meta property="og:title" content="Contact" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Jekyll template with example content for a law firm." />
 <meta property="og:description" content="Jekyll template with example content for a law firm." />
-<link rel="canonical" href="https://orchid-heron.cloudvent.net/" />
-<meta property="og:url" content="https://orchid-heron.cloudvent.net/" />
+<link rel="canonical" href="https://orchid-heron.cloudvent.net/contact/" />
+<meta property="og:url" content="https://orchid-heron.cloudvent.net/contact/" />
 <meta property="og:site_name" content="Justice Template" />
 <meta property="og:image" content="https://orchid-heron.cloudvent.net/uploads/building.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://orchid-heron.cloudvent.net/uploads/building.jpg" />
-<meta property="twitter:title" content="Justice Template" />
+<meta property="twitter:title" content="Contact" />
 <script type="application/ld+json">
-{"name":"Justice Template","sameAs":["https://github.com/CloudCannon/justice-jekyll-template"],"url":"https://orchid-heron.cloudvent.net/","description":"Jekyll template with example content for a law firm.","@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://orchid-heron.cloudvent.net/siteicon.png"}},"image":"https://orchid-heron.cloudvent.net/uploads/building.jpg","headline":"Justice Template","@context":"https://schema.org"}</script>
+{"url":"https://orchid-heron.cloudvent.net/contact/","description":"Jekyll template with example content for a law firm.","@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://orchid-heron.cloudvent.net/siteicon.png"}},"image":"https://orchid-heron.cloudvent.net/uploads/building.jpg","headline":"Contact","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="https://orchid-heron.cloudvent.net/feed.xml" title="Justice Template" />
@@ -35,7 +35,7 @@
 	</head>
 
 	<body>
-		<header style="background-image: url('/uploads/building.jpg');" class="main-hero">
+		<header style="background-image: url('/uploads/building.jpg');" >
 			<div class="container">
 				<h1><a href="/">Justice</a></h1>
 				<nav>
@@ -54,7 +54,7 @@
 						
 							
 								
-								<li><a  href="/contact/">Contact</a></li>
+								<li><a class="active" href="/contact/">Contact</a></li>
 							
 						
 							
@@ -70,32 +70,53 @@
 		<section class="main">
 			<div class="container">
 				
+	<div class="page-header">
+		<h2>Contact</h2>
+	</div>
+
 
 <article class="content">
-	<div class="editable">
-	<p>This is the <strong>Justice</strong> template from <a href="https://cloudcannon.com/">CloudCannon</a>. Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.</p>
+	<p class="editable">
+	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+</p>
 
-	<p>Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.</p>
+<div class="columns">
+	<div class="column">
+		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
+
+		<label>Phone Number</label>
+		<p class="contact-info"><a href="tel:(03) 123 4567">(03) 123 4567</a></p>
+
+		<label>Email Address</label>
+		<p class="contact-info"><a href="mailto:contact@example.com">contact@example.com</a></p>
+
+		<label>Postal Address</label>
+		<address class="contact-info">PO Box 123<br> Ducktown<br> New Zealand</address>
+		<label>Address</label>
+		<address class="contact-info">123 Example Street<br> Gooseburb<br> 9876<br> Ducktown<br> New Zealand</address>
+	</div>
+
+	<div class="column">
+		<form method="post" action="/contact-success/">
+			<label for="email_address">Email Address</label>
+			<input id="email_address"type="text" name="email">
+
+			<label for="name">Name</label>
+			<input id="name" type="text" name="name">
+
+			<label for="message">Message</label>
+			<textarea id="message" name="message"></textarea>
+
+			<input type="hidden" name="_to" value="contact@example.com">
+			<input type="text" name="_gotcha" style="display: none;">
+
+			<input type="submit" value="Send Message">
+		</form>
+	</div>
 </div>
 
-<div class="testimonials">
-	
-		<blockquote class="testimonial">
-			<p class="testimonial-message">We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.</p>
-			<p class="testimonial-author"><img src="https://placekitten.com/g/60/60?a=.png" alt="Photo of Joice Carmold"> Joice Carmold</p>
-		</blockquote>
-	
-		<blockquote class="testimonial">
-			<p class="testimonial-message">Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.</p>
-			<p class="testimonial-author"><img src="https://www.fillmurray.com/60/60?a=.png" alt="Photo of Peter Rottenburg"> Peter Rottenburg</p>
-		</blockquote>
-	
-		<blockquote class="testimonial">
-			<p class="testimonial-message">Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.</p>
-			<p class="testimonial-author"><img src="https://placebear.com/60/60?a=.png" alt="Photo of D. and G. Gibbleston"> D. and G. Gibbleston</p>
-		</blockquote>
-	
-</div>
+
+
 
 </article>
 
@@ -105,7 +126,7 @@
 		
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
+					<a href="/blog/">Read our blog</a> for an introduction and quick tips on various areas of the law.
 				</p>
 			</section>
 		
